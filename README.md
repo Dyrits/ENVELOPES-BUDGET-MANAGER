@@ -8,6 +8,11 @@ To run locally, run `npm install`, then `npm run start`
 
 Once the app is running locally, you can access the API at `http://localhost:5000/`
 
+## Caveats
+The app is currently using a javascript object to store the data.  
+This is not a good solution for a production app, but it is a good solution for a demo app. In a production app, you would want to use a database to store the data.  
+It also means that the data will be lost when the app is restarted.
+
 ## Testing with Swagger
 Swagger documentation and testing available at `http://localhost:5000/api-swagger`
 

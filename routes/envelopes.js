@@ -74,8 +74,8 @@ router.get("/:id", find);
  *                budget:
  *                  type: integer
  *              example:
- *                title: Groceries
- *                budget: 300
+ *                title: Transportation
+ *                budget: 50
  *      responses:
  *        "201":
  *          description: Returns the created envelope
@@ -113,8 +113,8 @@ router.post("/", create);
  *                budget:
  *                  type: integer
  *              example:
- *                title: Groceries
- *                budget: 300
+ *                title: Transportation
+ *                budget: 50
  *      responses:
  *        "201":
  *          description: Returns the updated envelope
